@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+        .con{
+            width:400px;
+            height:400px;
+            background:conic-gradient(blue,red,yellow,green,brown,violet,purple);
+            border-radius:50%;
+            position:absolute;
+            top:10vh;
+            animation: cycle 1ms infinite;
+        }
+        @keyframes cycle{
+           0%{
+            transform:rotate(90deg);
+            }
+            50%{
+            transform:rotate(180deg);
+            }
+            100%{
+            transform:rotate(360deg);
+            }
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="con">
+
+    </div>
+    <div class="con1">
+
+    </div>
+</body>
+</html>
